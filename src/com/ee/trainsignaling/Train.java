@@ -16,7 +16,7 @@ public class Train {
 			if(previousBlock != null){
 				previousBlock.setSignalStatusOfPreviousBlock();
 			}
-			previousBlock = currentBlock;
+			previousBlock = currentBlock; 
 			currentBlock = block;
 		}
 	}
